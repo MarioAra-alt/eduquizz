@@ -1,0 +1,202 @@
+[
+  {
+    "question": "¿Cuál es la capital de Colombia?",
+    "options": [
+      "Medellín",
+      "Cali",
+      "Bogotá",
+      "Cartagena"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué ocurrió el 20 de julio de 1810 en Colombia?",
+    "options": [
+      "La independencia de Cartagena",
+      "La Batalla de Boyacá",
+      "El Grito de Independencia",
+      "La fundación de Bogotá"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Quién fue Simón Bolívar?",
+    "options": [
+      "Un presidente de Colombia en el siglo XX",
+      "El libertador de varios países de América",
+      "Un poeta colombiano",
+      "Un científico español"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué son los derechos humanos?",
+    "options": [
+      "Leyes impuestas por el gobierno",
+      "Derechos exclusivos de los ciudadanos mayores",
+      "Derechos fundamentales que tiene toda persona",
+      "Normas para castigar delitos"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué rama del poder público crea las leyes en Colombia?",
+    "options": [
+      "Poder Judicial",
+      "Poder Ejecutivo",
+      "Poder Legislativo",
+      "Poder Electoral"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué continente está al norte de África?",
+    "options": [
+      "Asia",
+      "Oceanía",
+      "Europa",
+      "América"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Cuál es el río más largo del mundo?",
+    "options": [
+      "Amazonas",
+      "Nilo",
+      "Yangtsé",
+      "Misisipi"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "¿Qué sistema económico se basa en la propiedad privada y la libre competencia?",
+    "options": [
+      "Socialismo",
+      "Feudalismo",
+      "Capitalismo",
+      "Comunismo"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué es la globalización?",
+    "options": [
+      "La creación de un único gobierno mundial",
+      "La interconexión económica, social y cultural del mundo",
+      "Un fenómeno de la Edad Media",
+      "La desaparición de las fronteras entre países"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué país fue responsable del descubrimiento de América en 1492?",
+    "options": [
+      "Inglaterra",
+      "Francia",
+      "España",
+      "Portugal"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Cuál es la capital de El Salvador?",
+    "options": [
+      "Santa Ana",
+      "San Miguel",
+      "San Salvador",
+      "La Libertad"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué ocurrió el 15 de septiembre de 1821?",
+    "options": [
+      "La independencia de El Salvador",
+      "La firma de la Constitución",
+      "El fin de la guerra civil",
+      "La anexión a México"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "¿Cuál es la moneda oficial de El Salvador desde 2001?",
+    "options": [
+      "Colón",
+      "Peso",
+      "Dólar estadounidense",
+      "Euro"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué volcán está ubicado cerca de San Salvador?",
+    "options": [
+      "Volcán de Izalco",
+      "Volcán de San Vicente",
+      "Volcán de San Miguel",
+      "Volcán de San Salvador"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "¿Qué civilización indígena habitó El Salvador antes de la llegada de los españoles?",
+    "options": [
+      "Mayas",
+      "Mexicas",
+      "Pipiles",
+      "Incas"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué acontecimiento marcó el inicio de la guerra civil en El Salvador?",
+    "options": [
+      "El asesinato de un presidente",
+      "La firma de los Acuerdos de Paz",
+      "El asesinato de Monseñor Óscar Romero",
+      "Un golpe militar"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué se firmó en 1992 en Chapultepec, México?",
+    "options": [
+      "La Constitución de El Salvador",
+      "La Independencia",
+      "Los Acuerdos de Paz",
+      "El Tratado de Libre Comercio"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué río es el más largo de El Salvador?",
+    "options": [
+      "Río Grande de San Miguel",
+      "Río Lempa",
+      "Río Paz",
+      "Río Sumpul"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Cuál es uno de los principales destinos turísticos arqueológicos de El Salvador?",
+    "options": [
+      "Tazumal",
+      "Copán",
+      "Teotihuacán",
+      "Cuzcatlán"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "¿Qué departamento de El Salvador es conocido por su producción de café?",
+    "options": [
+      "La Unión",
+      "Sonsonate",
+      "Ahuachapán",
+      "Chalatenango"
+    ],
+    "correct": 2
+  }
+]

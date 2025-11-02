@@ -1,0 +1,254 @@
+[
+    {
+      "question": "¿Cuál es el planeta más cercano al Sol?",
+      "options": ["Venus", "Mercurio", "Marte", "Tierra"],
+      "correct": 1
+    },
+    {
+      "question": "¿Qué gas respiramos para vivir?",
+      "options": ["Nitrógeno", "Oxígeno", "Dióxido de carbono", "Hidrógeno"],
+      "correct": 1
+    },
+    {
+      "question": "¿Cuántos planetas hay en el sistema solar?",
+      "options": ["7", "9", "8", "10"],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué órgano del cuerpo humano bombea sangre?",
+      "options": ["Pulmón", "Hígado", "Cerebro", "Corazón"],
+      "correct": 3
+    },
+    {
+      "question": "¿Cuál es el elemento químico del agua?",
+      "options": ["H₂O", "CO₂", "NaCl", "O₂"],
+      "correct": 0
+    },
+    {
+      "question": "¿Qué astro ilumina la Tierra durante el día?",
+      "options": ["Marte", "Luna", "Sol", "Estrellas"],
+      "correct": 2
+    },
+    {
+      "question": "¿Cuántos sentidos tiene el ser humano?",
+      "options": ["6", "4", "7", "5"],
+      "correct": 3
+    },
+    {
+      "question": "¿Qué animal pone huevos?",
+      "options": ["Perro", "Gato", "Gallina", "Caballo"],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué animal es el más grande del mundo?",
+      "options": ["Ballena azul", "Elefante", "Jirafa", "Tiburón blanco"],
+      "correct": 0
+    },
+    {
+      "question": "¿Cuál es el estado líquido del agua?",
+      "options": ["Vapor", "Hielo", "Agua", "Niebla"],
+      "correct": 2
+    },
+    {
+      "question": "¿Cuál es el órgano principal del sistema nervioso?",
+      "options": ["Estómago", "Cerebro", "Corazón", "Riñón"],
+      "correct": 1
+    },
+    {
+      "question": "¿Qué fuerza nos mantiene en el suelo?",
+      "options": ["Empuje", "Presión", "Gravedad", "Fricción"],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué tipo de animal es el tiburón?",
+      "options": ["Mamífero", "Anfibio", "Pez", "Ave"],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué vitamina se obtiene del Sol?",
+      "options": ["Vitamina C", "Vitamina B12", "Vitamina D", "Vitamina A"],
+      "correct": 2
+    },
+    {
+      "question": "¿Cuál es el hueso más largo del cuerpo humano?",
+      "options": ["Radio", "Fémur", "Húmero", "Tibia"],
+      "correct": 1
+    },
+    {
+      "question": "¿Qué tipo de sangre es donante universal?",
+      "options": ["A+", "AB+", "B-", "O-"],
+      "correct": 3
+    },
+    {
+      "question": "¿Qué planeta es conocido como el planeta rojo?",
+      "options": ["Venus", "Marte", "Saturno", "Júpiter"],
+      "correct": 1
+    },
+    {
+      "question": "¿Cuál es la unidad básica de la vida?",
+      "options": ["Tejido", "Átomo", "Órgano", "Célula"],
+      "correct": 3
+    },
+    {
+      "question": "¿Qué se usa para medir la temperatura?",
+      "options": ["Barómetro", "Termómetro", "Anemómetro", "Regla"],
+      "correct": 1
+    },
+    {
+      "question": "¿Cuál es el planeta más grande del sistema solar?",
+      "options": ["Saturno", "Urano", "Júpiter", "Neptuno"],
+      "correct": 2
+    },
+  
+    {
+      "question": "¿Qué científico desarrolló la teoría de la evolución por selección natural?",
+      "options": ["Gregor Mendel", "Charles Darwin", "Louis Pasteur", "Isaac Newton"],
+      "correct": 1
+    },
+    {
+      "question": "¿Cuál es el componente principal del Sol?",
+      "options": ["Hidrógeno", "Oxígeno", "Helio", "Carbono"],
+      "correct": 0
+    },
+    {
+      "question": "¿Qué parte del cerebro controla el equilibrio?",
+      "options": ["Tálamo", "Corteza cerebral", "Cerebelo", "Hipotálamo"],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué órgano produce la insulina en el cuerpo humano?",
+      "options": ["Riñón", "Estómago", "Hígado", "Páncreas"],
+      "correct": 3
+    },
+    {
+      "question": "¿Cuál es la fórmula química de la sal de mesa?",
+      "options": ["KCl", "NaCl", "CaCO₃", "NaOH"],
+      "correct": 1
+    },
+    {
+      "question": "¿Qué científico es conocido por sus leyes del movimiento?",
+      "options": ["Kepler", "Einstein", "Isaac Newton", "Galileo Galilei"],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué unidad se utiliza para medir la frecuencia?",
+      "options": ["Volt", "Hertz", "Watt", "Newton"],
+      "correct": 1
+    },
+    {
+      "question": "¿Cuál es el proceso por el que las células se dividen en dos células hijas idénticas?",
+      "options": ["Meiosis", "Mitosis", "Fisión", "Duplicación"],
+      "correct": 1
+    },
+    {
+      "question": "¿Qué planeta tiene un sistema de anillos muy visible?",
+      "options": ["Saturno", "Urano", "Júpiter", "Neptuno"],
+      "correct": 0
+    },
+    {
+      "question": "¿Qué glóbulo es responsable de defender al cuerpo de enfermedades?",
+      "options": ["Plaqueta", "Glóbulo rojo", "Glóbulo blanco", "Plasma"],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué es un eclipse lunar?",
+      "options": ["La Tierra se interpone entre el Sol y la Luna", "La Luna se interpone entre la Tierra y el Sol", "El Sol desaparece temporalmente", "El cielo se oscurece por nubes"],
+      "correct": 0
+    },
+    {
+      "question": "¿Qué científico descubrió los principios de la herencia genética?",
+      "options": ["Charles Darwin", "Gregor Mendel", "James Watson", "Louis Pasteur"],
+      "correct": 1
+    },
+    {
+      "question": "¿Cuál es el metal líquido a temperatura ambiente?",
+      "options": ["Cobre", "Mercurio", "Plomo", "Aluminio"],
+      "correct": 1
+    },
+    {
+      "question": "¿Qué gas es más abundante en la atmósfera terrestre?",
+      "options": ["Oxígeno", "Dióxido de carbono", "Argón", "Nitrógeno"],
+      "correct": 3
+    },
+    {
+      "question": "¿Cuál es la distancia aproximada de la Tierra al Sol?",
+      "options": ["93 millones de millas", "150 millones de km", "384 mil km", "50 millones de km"],
+      "correct": 1
+    },
+    {
+      "question": "¿Qué parte de la célula contiene el material genético?",
+      "options": ["Citoplasma", "Mitocondria", "Núcleo", "Membrana"],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué nombre recibe el cambio de líquido a gas?",
+      "options": ["Condensación", "Evaporación", "Fusión", "Sublimación"],
+      "correct": 1
+    },
+    {
+      "question": "¿Cuál es la función de la clorofila en las plantas?",
+      "options": ["Transportar agua", "Respirar", "Captar luz solar", "Transpirar"],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué instrumento se usa para medir la presión atmosférica?",
+      "options": ["Anemómetro", "Barómetro", "Higrómetro", "Termómetro"],
+      "correct": 1
+    },
+    {
+      "question": "¿Qué célula transporta oxígeno en la sangre?",
+      "options": ["Glóbulo rojo", "Glóbulo blanco", "Plaqueta", "Neurona"],
+      "correct": 0
+    },
+    {
+      "question": "¿Qué partícula subatómica no tiene carga eléctrica?",
+      "options": ["Protón", "Electrón", "Neutrón", "Positrón"],
+      "correct": 2
+    },
+    {
+      "question": "¿Quién formuló la teoría cuántica?",
+      "options": ["Albert Einstein", "Max Planck", "Niels Bohr", "Erwin Schrödinger"],
+      "correct": 1
+    },
+    {
+      "question": "¿Cuál es el número atómico del uranio?",
+      "options": ["94", "90", "92", "88"],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué científico propuso la ley de la gravitación universal?",
+      "options": ["Galileo Galilei", "Johannes Kepler", "Isaac Newton", "Stephen Hawking"],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué fenómeno explica la dualidad onda-partícula?",
+      "options": ["Mecánica cuántica", "Electromagnetismo", "Teoría de la relatividad", "Termodinámica"],
+      "correct": 0
+    },
+    {
+      "question": "¿Cuál es la constante de Planck?",
+      "options": ["6.626 x 10⁻³⁴ Js", "3.00 x 10⁸ m/s", "9.81 m/s²", "1.60 x 10⁻¹⁹ C"],
+      "correct": 0
+    },
+    {
+      "question": "¿Qué nombre recibe el proceso por el cual las plantas liberan oxígeno?",
+      "options": ["Respiración celular", "Fotosíntesis", "Fermentación", "Transpiración"],
+      "correct": 1
+    },
+    {
+      "question": "¿Cuál es el gen responsable del desarrollo sexual masculino?",
+      "options": ["XIST", "BRCA1", "SRY", "MYC"],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué tipo de radiación es más penetrante?",
+      "options": ["Radiación beta", "Radiación alfa", "Radiación gamma", "Radiación ultravioleta"],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué estructura celular se encarga de la síntesis de proteínas?",
+      "options": ["Mitocondrias", "Lisosomas", "Ribosomas", "Núcleo"],
+      "correct": 2
+    }
+  ]
+  

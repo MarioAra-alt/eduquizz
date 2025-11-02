@@ -1,0 +1,237 @@
+[
+  {
+    "question": "¿Qué es el lenguaje?",
+    "options": [
+      "Es el sistema de sonidos para formar palabras",
+      "Es la capacidad humana para comunicarse mediante signos orales, escritos o gestuales",
+      "Es un idioma específico",
+      "Es una forma de arte"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Cuáles son las funciones del lenguaje?",
+    "options": [
+      "Tres: narrativa, descriptiva y expositiva",
+      "Cinco: verbal, no verbal, escrita, hablada y gestual",
+      "Seis: referencial, emotiva, conativa, fática, metalingüística y poética",
+      "Cuatro: objetiva, subjetiva, directa e indirecta"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué diferencia hay entre lengua, habla y lenguaje?",
+    "options": [
+      "Son sinónimos que se usan indistintamente",
+      "Lengua es el uso individual, habla el sistema compartido y lenguaje solo escrito",
+      "Lenguaje es la capacidad, lengua es el sistema y habla es el uso individual",
+      "Lengua es un idioma, habla es hablar bien y lenguaje es lo mismo que comunicación"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué son los signos lingüísticos?",
+    "options": [
+      "Palabras largas y difíciles de pronunciar",
+      "Son gestos usados para comunicar emociones",
+      "Son letras del alfabeto",
+      "Unidades mínimas del lenguaje con significante y significado"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "¿Qué es la comunicación verbal y no verbal?",
+    "options": [
+      "Verbal usa palabras; no verbal usa gestos, expresiones, imágenes, etc.",
+      "Verbal es escrita y no verbal es oral",
+      "Ambas usan solo el cuerpo",
+      "Verbal es lenta y no verbal es rápida"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "¿Qué es una sílaba?",
+    "options": [
+      "Una palabra que no tiene significado",
+      "Una letra del abecedario",
+      "Un conjunto de letras que se pronuncian en un solo golpe de voz",
+      "Una oración corta"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Cuál es el sujeto en la oración: 'El perro ladra fuerte'?",
+    "options": ["El", "ladra", "El perro", "fuerte"],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué es un adjetivo?",
+    "options": [
+      "Una palabra que describe al sustantivo",
+      "Una acción",
+      "Una palabra que reemplaza al verbo",
+      "Un conector textual"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "¿Qué es una metáfora?",
+    "options": [
+      "Una comparación directa sin usar 'como'",
+      "Un resumen de un texto",
+      "Un texto informativo",
+      "Una figura geométrica"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "¿Cuál es la idea principal de un párrafo?",
+    "options": [
+      "El título del texto",
+      "La oración más larga",
+      "La información más importante que resume el contenido",
+      "Un detalle curioso"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué es una fábula?",
+    "options": [
+      "Un cuento largo con capítulos",
+      "Una historia con animales que deja una enseñanza",
+      "Una obra de teatro",
+      "Una biografía"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué es la narración?",
+    "options": [
+      "Una descripción de objetos",
+      "Un conjunto de oraciones sin sentido",
+      "El relato de hechos reales o ficticios",
+      "Una oración subordinada"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué es un sinónimo?",
+    "options": [
+      "Palabra con significado contrario",
+      "Palabra que no tiene significado",
+      "Palabra que se usa en matemáticas",
+      "Palabra con significado similar"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "¿Qué es una oración compuesta?",
+    "options": [
+      "Una oración que tiene una sola proposición",
+      "Una oración sin sujeto",
+      "Una oración con dos o más proposiciones",
+      "Una oración sin verbo"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué es un texto argumentativo?",
+    "options": [
+      "Un texto que describe emociones",
+      "Un texto que cuenta una historia",
+      "Un texto que busca convencer con razones",
+      "Un texto que muestra imágenes"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué tipo de palabra es 'rápidamente'?",
+    "options": ["Sustantivo", "Verbo", "Adjetivo", "Adverbio"],
+    "correct": 3
+  },
+  {
+    "question": "¿Cuál es una característica del lenguaje coloquial?",
+    "options": [
+      "Se usa en textos científicos",
+      "Utiliza un vocabulario técnico",
+      "Es informal y propio de conversaciones cotidianas",
+      "Carece de reglas gramaticales"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué es una oración interrogativa?",
+    "options": [
+      "Una oración que expresa una duda o pregunta",
+      "Una oración que describe algo",
+      "Una oración que da una orden",
+      "Una oración que expresa emoción"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "¿Qué es una conjunción?",
+    "options": [
+      "Una palabra que une otras palabras o ideas",
+      "Una palabra que reemplaza al sustantivo",
+      "Un tipo de adjetivo",
+      "Una forma verbal irregular"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "¿Cuál es el propósito principal de un texto expositivo?",
+    "options": [
+      "Contar una historia",
+      "Convencer al lector",
+      "Describir un personaje",
+      "Explicar un tema de forma clara y objetiva"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "¿Qué es una onomatopeya?",
+    "options": [
+      "Una palabra inventada",
+      "Una figura que exagera una característica",
+      "Una palabra que imita un sonido",
+      "Una comparación con 'como'"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué significa el prefijo 'pre-'?",
+    "options": ["Después", "Contra", "Antes", "Por encima"],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué tipo de texto es una carta formal?",
+    "options": [
+      "Narrativo",
+      "Descriptivo",
+      "Instructivo",
+      "Textual comunicativo"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "¿Qué representa el 'yo lírico' en un poema?",
+    "options": [
+      "El lector",
+      "El autor real",
+      "La voz que expresa los sentimientos en el poema",
+      "El personaje principal"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué es una aliteración?",
+    "options": [
+      "Repetición de sonidos similares en una frase",
+      "Comparación entre dos ideas opuestas",
+      "Descripción detallada de un objeto",
+      "Uso de un hecho histórico en un poema"
+    ],
+    "correct": 0
+  }
+]

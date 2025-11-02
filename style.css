@@ -1,0 +1,16 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1579546929662-711aa81148cf?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvbG9yZnVsfGVufDB8fDB8fHww'); /* Cambia esto por tu imagen */
+    background-size: cover;       /* Ajusta para cubrir toda la pantalla */
+    background-repeat: no-repeat; /* No repetir */
+    background-position: center;  /* Centrar imagen */
+    background-attachment: fixed; /* Fondo fijo al hacer scroll */
+    min-height: 100vh;            /* Altura mínima: pantalla completa */
+    margin: 0;
+}
+
+/* Para mejorar la legibilidad del texto sobre la imagen */
+.contenido {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    padding: 2rem;
+    border-radius: 10px;
+}

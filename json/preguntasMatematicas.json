@@ -1,0 +1,202 @@
+[
+  {
+    "question": "¿Cuánto es 7 + 5?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Cuál es el resultado de 9 × 3?",
+    "options": [
+      "27",
+      "18",
+      "36",
+      "21"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Si tienes 20 caramelos y das 5, ¿cuántos te quedan?",
+    "options": [
+      "10",
+      "15",
+      "5",
+      "25"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué número es mayor?",
+    "options": [
+      "0.8",
+      "0.75",
+      "0.6",
+      "0.500"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "¿Cuál es la raíz cuadrada de 16?",
+    "options": [
+      "4",
+      "5",
+      "8",
+      "6"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "3² equivale a:",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "8"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Cuál es el valor de 100 ÷ 4?",
+    "options": [
+      "20",
+      "24",
+      "25",
+      "30"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Cuántos lados tiene un hexágono?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Cuál es el siguiente número en la secuencia: 2, 4, 6, ___?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Cuál es la fracción equivalente a 0.5?",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "2/3"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "¿Cuánto es 50% de 80?",
+    "options": [
+      "20",
+      "30",
+      "40",
+      "60"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Cuántos segundos hay en 3 minutos?",
+    "options": [
+      "120",
+      "150",
+      "180",
+      "200"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué número falta? 10, ___, 30, 40",
+    "options": [
+      "15",
+      "20",
+      "25",
+      "35"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Cuál es el valor de (6 + 4) × 2?",
+    "options": [
+      "20",
+      "16",
+      "22",
+      "24"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "¿Cuál es el número primo?",
+    "options": [
+      "9",
+      "15",
+      "7",
+      "21"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Cuál es el valor de 3 × (2 + 5)?",
+    "options": [
+      "21",
+      "17",
+      "25",
+      "20"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "¿Cuál es la décima parte de 1000?",
+    "options": [
+      "100",
+      "10",
+      "1",
+      "110"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "¿Qué número representa el dígito 4 en el número 4,582?",
+    "options": [
+      "Unidades",
+      "Decenas",
+      "Centenas",
+      "Millares"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "1 litro equivale a:",
+    "options": [
+      "100 mililitros",
+      "500 mililitros",
+      "1000 mililitros",
+      "1500 mililitros"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Cuál es el resultado de 10 - (2 × 3)?",
+    "options": [
+      "4",
+      "6",
+      "10",
+      "2"
+    ],
+    "correct": 3
+  }
+]

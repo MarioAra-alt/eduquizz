@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Matemáticas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet"/>
+
+    <!--#region Estilo para barra de carga y botón de respuesta-->
+    <style>
+        .progress {
+        height: 20px;
+        }
+        .progress-bar {
+        transition: width 0.1s linear;
+        }
+        .option-btn:disabled {
+        pointer-events: none;
+        opacity: 0.6;
+        }
+        .big-btn {
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            font-size: 1.5rem; 
+        }
+    </style>
+    <!-- #endregion -->
+    </head>
+
+<body>
+    <div class="container py-5">
+        <h1 class="text-center mb-4 text-white">Cuestionario Matemáticas</h1>
+        <div id="quiz-container" class="card shadow-lg p-4">
+            <!--Aquí se mostrará las peguntas-->
+        </div>
+    </div>
+
+    <script>
+        let questions = []; //Almacena todas las preguntas
+        let selectedQuestions = [];//Almacena 10 las preguntas aleatoreas
+        let currentIndex = 0; //Indice de pregunta actual
+        let score = 0; //Puntaje
+        let timerInterval; //Definir variabel del intervalo de tiempo para responder
+    
+        //#region Cargar y seleccionar preguntas de un JSON 
+        fetch('../json/preguntasMatematicas.json')
+            .then(response => response.json())
+            .then(data => {
+                questions = data;
+                selectedQuestions = questions.sort(() => 0.5 - Math.random()).slice(0, 10);
+                showQuestion(currentIndex);
+            })
+            .catch(error => {
+                document.getElementById("quiz-container").innerHTML = "<p class='text-danger'>Error cargando las preguntas.</p>";
+                console.error("Error cargando JSON:", error);
+            });
+        //#endregion
+
+        //Pregunta con barra de progreso
+        function showQuestion(index) {
+        //#region Mostrar pregunta
+            clearInterval(timerInterval);//Resetear tiempo
+            const q = selectedQuestions[index];//Variable que almacena las 10 preguntas
+            const container = document.getElementById('quiz-container');//Definir en donde se va a cargar este codigo
+            container.innerHTML = `
+                <!--mostrar pregunta-->
+                <h4 class="mb-3">Pregunta ${index + 1} de 10</h4>
+                <p class="fs-5">${q.question}</p>
+                <div id="options-container" class="mb-3">
+
+                    <!--Mostrar respuestas-->
+                    ${q.options.map((opt, i) => {
+                        const colors = ['primary', 'success', 'warning', 'danger'];//Colores de botones
+                        const color = colors[i % colors.length];//Elegir color en base a i
+                        return `
+                            <button class="btn btn-${color} w-100 mb-2 option-btn big-btn" data-index="${i}">${opt}</button>
+                        `;
+                    }).join('')}
+                </div>
+
+                <!--Mostrar barra de carga-->
+                <div class="mb-3">
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 100%">
+                            <!--Temporizador-->
+                        </div>
+                    </div>
+                </div>
+
+                <!--Mostrar retroalimentación-->
+                <div id="feedback" class="mt-3">
+                    <!--Retroalimentacion de las preguntas-->
+                </div>
+        `;
+        //#endregion
+
+        //#region Barra de progreso
+        let answered = false;//Estado de la pregunta (false=Sin responder)
+        let timeLeft = 7.0;//Tiempo Faltante
+        const progressBar = document.querySelector('.progress-bar');//Definir donde se carga el codigo
+
+        //Función para la barra de progreso
+        timerInterval = setInterval(() => {
+            timeLeft -= 0.1;
+            progressBar.style.width = `${(timeLeft / 7) * 100}%`;
+            if (timeLeft <= 0) {
+                clearInterval(timerInterval);
+                if (!answered) {
+                    answered = true;
+                    showFeedback(false, q);
+                }
+            }
+        }, 100);
+        //#endregion
+        
+        //#region Proceso si se respondio o no a tiempo
+        document.querySelectorAll('.option-btn').forEach(button => {
+            button.addEventListener('click', (e) => {
+                if (answered) return;
+                answered = true;
+                clearInterval(timerInterval);
+                const selected = parseInt(e.target.dataset.index);
+                showFeedback(selected === q.correct, q, selected);
+            });
+        });
+        //#endregion
+    }
+    
+    //#region Retroalimentar respuesta
+    function showFeedback(isCorrect, question, selected = null) {
+        const feedback = document.getElementById("feedback");
+        const correctText = question.options[question.correct];
+
+        //Proceso al dar clic a una respuesta
+        document.querySelectorAll('.option-btn').forEach((btn, i) => {
+            btn.disabled = true;
+            if (i === question.correct) {
+                //Si es correcta
+                btn.classList.remove('btn-outline-primary');
+                btn.classList.add('btn-success');
+            } else if (i === selected) {
+                //Si es incorrecta
+                btn.classList.remove('btn-outline-primary');
+                btn.classList.add('btn-danger');
+            }
+        });
+
+        //si es pregunta correcta o incorrecta
+        if (isCorrect) {
+            //Si es correcta
+            feedback.innerHTML = `<div class="alert alert-success">¡Correcto!</div>`;
+            score++;
+        } else {
+            //Si es incorrecta
+            feedback.innerHTML = `<div class="alert alert-danger">Incorrecto. La respuesta correcta era: <strong>${correctText}</strong></div>`;
+        }
+
+        //Saber si es la ultima pregunta cuando se acabe el tiempo
+        setTimeout(() => {
+            currentIndex++;
+            if (currentIndex < selectedQuestions.length) {
+                //Si faltan preguntas
+                showQuestion(currentIndex);
+            } else {
+                //Si ya no hay preguntas
+                showResult();
+            }
+        }, 1500);//Tiempo de retroalimentación
+    }
+    //#endregion
+
+    //#region Mostrar resultados
+    function showResult() {
+      document.getElementById('quiz-container').innerHTML = `
+        <h1 class="text-success text-center pb-3">¡Cuestionario completado!</h1>
+        <h2 class="text-center">Tu puntaje final es: <strong>${score} de 10</strong>.</h2>
+        <p class="mt-3 text-center">${score >= 7 ? 
+            "🎉 ¡Felicidades, campeón del conocimiento! 🎉<br>Has superado el desafío con gran destreza. Tus respuestas demuestran que dominas esta materia como todo un maestro." 
+            : "😅 ¡El reto fue difícil esta vez… pero no te rindas! 😅<br>Esta partida no terminó como esperabas, pero cada intento te hace más fuerte. ¡Reúne energías, revisa tus errores y vuelve al juego! El conocimiento es un poder que se entrena."}</p>
+        <div class="d-flex justify-content-center my-4">
+            <a href="../index.html" class="btn btn-primary">Regresar al inicio</a>
+        </div>
+      `;
+    }
+    //#endregion
+
+  </script>
+</body>
+</html>
